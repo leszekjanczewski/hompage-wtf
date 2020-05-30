@@ -1,9 +1,15 @@
 body {
   background: #fefefe;
+  display: block;
 }
 
 section {
   background: #ffffff;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .header {
@@ -26,6 +32,19 @@ a {
   color: #e49102;
 }
 
+.navigation__link {
+
+}
+
+.navigation__link--homepage {
+  background: yellow;
+  color: #000;
+}
+
 .header-link {
   color: #04ac26;
+}
+
+img {
+  width: 150px;;
 }
